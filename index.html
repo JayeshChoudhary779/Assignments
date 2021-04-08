@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Project</title>
+    <link rel="stylesheet" href="nextstyle.css"> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="topnav">
+            <div class="nav-title">
+                <h1 style="color:white">BOOK MANAGEMENT SYSTEM</h1>
+            </div>
+            <div class="nav-link">
+                <button class="button" id="b1" onclick="home()">Home</button>
+            </div>
+        </div>
+        <div>
+            <form>
+             
+              <input type="text" id="bid" placeholder="Book Id..">
+          
+              <input type="text" id="bname" placeholder="Book name..">
+          
+              <input type="text" id="aname" placeholder="Author name..">
+
+              <input type="text" id="price" placeholder="Price..">
+          
+              <input type="text" id="rating" placeholder="Rating..">
+
+              <button onclick="getDetails(); return false;" id="button">Add Book</button>
+            </form>
+          </div>
+
+        <div id="table">
+            <h2>Your books :</h2>
+
+            <table class="table" id="tables">
+                <thead>
+                    <tr>
+                        <th scope="col">Book Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Rating</th>
+                        <th scope="col">Action</th>   
+                    </tr>
+                </thead>
+                <tbody id='tableBody'></tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="book.js"></script>
+
+</body>
+
+</html>

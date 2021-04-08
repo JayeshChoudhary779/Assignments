@@ -1,0 +1,74 @@
+body{
+    background-color: silver;
+}
+.topnav{
+    background-color: rgb(54, 7, 7);
+}
+.nav-link{
+    margin: 4px 40px 40px 1000px;
+    height: 60%;
+    display: flex;
+}
+.button {
+    background-color: silver; 
+    border: none;
+    color: rgb(29, 8, 8);
+    margin: 2px 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.delete-button{
+    background-color: #2e1109; 
+  border: none;
+  color: white;
+  padding: 7px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.form {
+    font-size: 20px;
+    margin: 40px 80px 40px 300px;
+}
+#books,#title{
+    font-size: 20px;
+}
+#searchButton{
+    height: 28px;
+  }
+
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #table td, #table th {
+    border: 1px solid rgb(46, 5, 5);
+    padding: 8px;
+  }
+  
+  #table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #table tr:hover {background-color: #ddd;}
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #884840;
+    color: white;
+  }
+h2{
+    margin: 40px 80px 40px 300px;
+}
+#search-button{
+    color: rgb(44, 6, 6);
+}
